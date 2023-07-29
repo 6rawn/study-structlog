@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "study-structlog"
+version = "0.1.0"
+description = ""
+authors = ["6rawn <103933406+6rawn@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "study_structlog"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+structlog = "^23.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
